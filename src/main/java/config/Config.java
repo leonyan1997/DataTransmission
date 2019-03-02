@@ -4,6 +4,10 @@ package config;
  * @author leonyan
  * */
 public class Config {
-    public static final String TOPIC = "test_topic";
-    public static final String BROKER_LIST = "localhost:9092";
+    /**
+     * DataBlock参数
+     */
+    public static final String DESTINATION_HOST = "localhost";
+    public static final int BYTES_NUMBER_PER_DATABLOCK = 100;
+    public static final String FILE_PATH = "";
 }
